@@ -1,14 +1,9 @@
-export interface Breed {
+export default class Breed {
   name: string
-  subBreeds: string[]
-  images: string[]
-}
+  subBreeds: string[] | undefined
 
-export const createBreed = (
-  breed: string,
-  subBreeds: string[] = []
-): Breed => ({
-  name: breed,
-  subBreeds,
-  images: [],
-})
+  constructor(name: string, subBreeds: string[]) {
+    this.name = name
+    this.subBreeds = subBreeds
+  }
+}

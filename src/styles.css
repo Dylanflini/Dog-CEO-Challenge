@@ -1,0 +1,44 @@
+#root {
+  max-width: 1200px;
+  margin: auto;
+  padding: 1rem;
+}
+
+.nav-title {
+  margin: 2rem;
+  text-align: center;
+  width: 100%;
+}
+
+.grid-container {
+  background: white;
+  min-height: 85vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(12rem, 1fr));
+  grid-template-rows: repeat(4, min-content);
+  grid-gap: 1rem;
+  padding: 1rem;
+  padding-top: 2.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.filter-container {
+  display: flex;
+  width: 100%;
+}
+
+.delete-button {
+  margin-top: auto;
+  padding-left: 0.5rem;
+}
+
+.primary-button-container {
+  margin-top: 2rem;
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+.label {
+  width: min-content;
+}

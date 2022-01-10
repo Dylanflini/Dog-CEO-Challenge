@@ -29,7 +29,7 @@ export const AddImages = (
   currentBreed: string,
   images: string[]
 ) => {
-  const breed = { ...getBreed(breeds, currentBreed), images }
+  const breed = {...getBreed(breeds, currentBreed), images} 
 
   return breeds.map((currentBreed) => {
     if (currentBreed.name === breed.name) {

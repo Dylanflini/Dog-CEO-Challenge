@@ -16,5 +16,3 @@ export async function getImages(breed) {
     .then((res) => res.json())
     .then((data) => data.message)
 }
-
-// .get<{ message:{} }>('https://dog.ceo/api/breeds/list/all')
