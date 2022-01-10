@@ -6,7 +6,7 @@
   "scripts": {
     "start": "parcel public/index.html",
     "test": "react-scripts test --watchAll=false",
-    "build": "parcel build"
+    "build": "parcel build --dist-dir docs"
   },
   "repository": {
     "type": "git",
