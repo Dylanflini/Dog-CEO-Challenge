@@ -6,7 +6,7 @@
   "scripts": {
     "start": "parcel public/index.html",
     "test": "react-scripts test --watchAll=false",
-    "build": "parcel build --dist-dir docs"
+    "build": "parcel build --dist-dir docs --public-url /Dog-CEO-Challenge"
   },
   "repository": {
     "type": "git",
